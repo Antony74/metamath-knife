@@ -32,6 +32,13 @@ Alternatively using `cargo install`:
     cargo install --git https://github.com/david-a-wheeler/metamath-knife
     # $HOME/.cargo/bin/metamath-knife has been installed, use it as the binary in the following instructions
 
+## Alternative Docker build
+
+```
+docker build -t metamath-knife .
+docker run -it metamath-knife
+```
+
 ## Running
 
     # The largest known Metamath database, and best test case
