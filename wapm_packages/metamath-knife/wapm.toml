@@ -1,0 +1,19 @@
+[package]
+name = "akb74/metamath-knife"
+version = "1.0.0"
+description = "a Metamath database processing tool"
+license = "MIT"
+repository = "https://github.com/david-a-wheeler/metamath-knife"
+readme = "README.md"
+
+[[module]]
+name = "metamath-knife"
+source = "metamath-knife.wasm"
+abi = "wasi"
+
+[module.interfaces]
+wasi = "0.1.0-unstable"
+
+[[command]]
+name = "metamath-knife"
+module = "metamath-knife"
