@@ -1,3 +1,5 @@
 target
 Cargo.lock
 *.rs.bk
+wapm_packages/metamath-knife/metamath-knife.wasm
+wapm_packages/metamath-knife/README.md
